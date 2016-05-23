@@ -10,7 +10,7 @@
 
 
 # Set the working directory to where you want to run this code
-setwd("~/Dropbox/DnsCode/Coursera/DataScienceSpecialization/C3_GettingCleaningData/Project/")
+setwd("~/Desktop/GettingAndCleaningData/")
 # 
 # Get the data required for this project
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -71,4 +71,4 @@ data <- cbind(x,activity,subject)
 tidy <- ddply(data, .(subject, activity), function(fm) colMeans(fm[,1:66]))
 
 # writing out the tidy data set to a separate file
-write.table(tidy, "TidyDataset.txt", row.names = FALSE, quote = FALSE)
+write.table(tidy, "tidydata.txt", row.names = FALSE, quote = FALSE)
