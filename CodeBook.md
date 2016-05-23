@@ -1,0 +1,102 @@
+# Code Book for the tidy dataset obtained  
+This file describes various the data fields in tidydata.txt file.  
+The data is read from the following raw data files:  
+1. features.txt  
+2. activity_labels.txt  
+3. subject_train.txt  
+4. x_train.txt  
+5. y_train.txt  
+6. subject_test.txt  
+7. x_test.txt  
+8. y_test.txt  
+
+Subject refers to the Subject on whom the experiments were performed (range from 1-30) 
+and activity	refers to the Activity name.  
+The Activity has one of the following 6 possibilities: 
+1 WALKING  
+2 WALKING_UPSTAIRS  
+3 WALKING_DOWNSTAIRS  
+4 SITTING  
+5 STANDING  
+6 LAYING 
+
+## Other variables  
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tBodyAccStdX
+* tBodyAccStdY
+* tBodyAccStdZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tGravityAccStdX
+* tGravityAccStdY
+* tGravityAccStdZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyAccJerkStdX
+* tBodyAccJerkStdY
+* tBodyAccJerkStdZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroStdX
+* tBodyGyroStdY
+* tBodyGyroStdZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyGyroJerkStdX
+* tBodyGyroJerkStdY
+* tBodyGyroJerkStdZ
+* tBodyAccMagMean
+* tBodyAccMagStd
+* tGravityAccMagMean
+* tGravityAccMagStd
+* tBodyAccJerkMagMean
+* tBodyAccJerkMagStd
+* tBodyGyroMagMean
+* tBodyGyroMagStd
+* tBodyGyroJerkMagMean
+* tBodyGyroJerkMagStd
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccStdX
+* fBodyAccStdY
+* fBodyAccStdZ
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkStdX
+* fBodyAccJerkStdY
+* fBodyAccJerkStdZ
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroStdX
+* fBodyGyroStdY
+* fBodyGyroStdZ
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyAccMagMean
+* fBodyAccMagStd
+* fBodyAccMagMeanFreq
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagStd
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagStd
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagStd
+* fBodyBodyGyroJerkMagMeanFreq
