@@ -1,4 +1,4 @@
-# Course Projcet for Getting and Cleaning Data Course  
+# Projcet for Getting and Cleaning Data Course   
 This repository contains files required for the final project of the course 
 ## Overview of the project  
 The main script file for this project is run_analysis.R. The script file performs the following main tasks:  
